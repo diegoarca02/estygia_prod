@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Alppor</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/logos/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logos/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logos/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/logos/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+  <meta name="msapplication-TileColor" content="#080032">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+  <style>
+    .bg_estygia_green{
+      background: #4AD295 !important;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-color: #4ad295 !important;
+    }
+
+    .bg_estygia_dark{
+      background: #151A39 !important;
+    }
+
+    .btn_outline_estygia_dark{
+      color: #151A39 !important;
+      border: 2px solid #151A39 !important;
+    }
+
+    .btn_outline_estygia_dark:hover{
+      background: #fff !important;
+    }
+
+
+    .bg_color_dark{
+      color: #151A39 !important;
+    }
+
+    .bg_color_green{
+      color: #4AD295 !important;
+    }
+
+    .border_none{
+      border: 0px !important;
+    }
+
+    .form-check-input:checked {
+          background-color: #4ad295 !important;
+          border-color: #4ad295 !important;
+      }
+
+
+    .swiper-pagination-bullet-active {
+        background-color: #0b0f19 !important;
+    }
+
+    @font-face{
+        font-family: 'GothamRounded-Bold';
+        src: url("assets/fonts/GothamRounded-Bold.otf") format("opentype");
+    }
+
+    .font-gotham-bold{
+      font-family: 'GothamRounded-Bold';
+    }
+
+    @font-face{
+        font-family: 'GothamRounded-Light';
+        src: url("assets/fonts/GothamRounded-Light.otf") format("opentype");
+    }
+
+    .font-gotham-light{
+      font-family: 'GothamRounded-Light';
+    }
+
+    @font-face{
+        font-family: 'GothamRounded-Medium';
+        src: url("assets/fonts/GothamRounded-Medium.otf") format("opentype");
+    }
+
+    .font-gotham-medium{
+      font-family: 'GothamRounded-Medium';
+    }
+
+    button,a.btn{
+      font-family: 'GothamRounded-Light' !important;
+    }
+
+    .dropdown-item:hover, .dropdown-item:focus {
+    color: #4ad295 !important;
+    }
+  </style>
+<style>@import"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap";@font-face{font-family:boxicons;font-weight:400;font-style:normal;src:url(boxicons.741e715fbbc7cc4c.eot);src:url(boxicons.741e715fbbc7cc4c.eot) format("embedded-opentype"),url(boxicons.72b47ec0f8c02636.woff2) format("woff2"),url(boxicons.85c1b5a2f4454c0d.woff) format("woff"),url(boxicons.818b5a3ecde61716.ttf) format("truetype"),url(boxicons.f6b31b98b8bb42a3.svg?#boxicons) format("svg")}.bx{font-family:boxicons!important;font-weight:400;font-style:normal;font-feature-settings:normal;font-variant:normal;line-height:1;text-rendering:auto;display:inline-block;text-transform:none;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.bx-chevron-up:before{content:"\ea57"}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}:root{--si-blue:#0d6efd;--si-indigo:#6610f2;--si-purple:#6f42c1;--si-pink:#d63384;--si-red:#dc3545;--si-orange:#fd7e14;--si-yellow:#ffc107;--si-green:#198754;--si-teal:#20c997;--si-cyan:#0dcaf0;--si-black:#000;--si-white:#fff;--si-gray:#9397ad;--si-gray-dark:#33354d;--si-gray-100:#f3f6ff;--si-gray-200:#eff2fc;--si-gray-300:#e2e5f1;--si-gray-400:#d4d7e5;--si-gray-500:#b4b7c9;--si-gray-600:#9397ad;--si-gray-700:#565973;--si-gray-800:#33354d;--si-gray-900:#0b0f19;--si-primary:#6366f1;--si-secondary:#eff2fc;--si-success:#22c55e;--si-info:#4c82f7;--si-warning:#ffba08;--si-danger:#ef4444;--si-light:#fff;--si-dark:#0b0f19;--si-primary-rgb:99, 102, 241;--si-secondary-rgb:239, 242, 252;--si-success-rgb:34, 197, 94;--si-info-rgb:76, 130, 247;--si-warning-rgb:255, 186, 8;--si-danger-rgb:239, 68, 68;--si-light-rgb:255, 255, 255;--si-dark-rgb:11, 15, 25;--si-white-rgb:255, 255, 255;--si-black-rgb:0, 0, 0;--si-body-color-rgb:86, 89, 115;--si-body-bg-rgb:255, 255, 255;--si-font-sans-serif:"Manrope", sans-serif;--si-font-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--si-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--si-body-font-family:var(--si-font-sans-serif);--si-body-font-size:1rem;--si-body-font-weight:400;--si-body-line-height:1.6;--si-body-color:#565973;--si-body-bg:#fff;--si-border-width:1px;--si-border-style:solid;--si-border-color:#e2e5f1;--si-border-color-translucent:rgba(0, 0, 0, .175);--si-border-radius:.375rem;--si-border-radius-sm:.25rem;--si-border-radius-lg:.5rem;--si-border-radius-xl:1rem;--si-border-radius-2xl:2rem;--si-border-radius-pill:50rem;--si-heading-color:#0b0f19;--si-link-color:#6366f1;--si-link-hover-color:#3e41ee;--si-code-color:#e3116c;--si-highlight-bg:#fff3cd}*,*:before,*:after{box-sizing:border-box}body{margin:0;font-family:var(--si-body-font-family);font-size:var(--si-body-font-size);font-weight:var(--si-body-font-weight);line-height:var(--si-body-line-height);color:var(--si-body-color);text-align:var(--si-body-text-align);background-color:var(--si-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}a{color:var(--si-link-color);text-decoration:underline}a:hover{color:var(--si-link-hover-color);text-decoration:none}.me-2{margin-right:.5rem!important}.fs-sm{font-size:.875rem!important}.text-muted{color:var(--si-gray-600)!important}html *{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html,body{height:100%}body{display:flex;flex-direction:column}.page-wrapper{flex:1 0 auto}:root{--si-user-selection-color:rgba(var(--si-primary-rgb), .22);--si-heading-link-color:#33354d;--si-heading-link-hover-color:#6366f1}a{transition:color .2s ease-in-out}a:focus{outline:none}.btn-scroll-top{--si-btn-scroll-top-size:2.75rem;--si-btn-scroll-top-border-radius:50%;--si-btn-scroll-top-color:#fff;--si-btn-scroll-top-hover-color:#fff;--si-btn-scroll-top-bg:rgba(11, 15, 25, .2);--si-btn-scroll-top-hover-bg:rgba(11, 15, 25, .4);--si-btn-scroll-top-icon-size:1.5rem;position:fixed;display:flex;align-items:center;justify-content:center;right:1.25rem;bottom:-4.125rem;width:var(--si-btn-scroll-top-size);height:var(--si-btn-scroll-top-size);transition:bottom .4s cubic-bezier(.68,-.55,.265,1.55),opacity .3s,background-color .25s ease-in-out;border-radius:var(--si-btn-scroll-top-border-radius);background-color:var(--si-btn-scroll-top-bg);color:var(--si-btn-scroll-top-color);text-decoration:none;opacity:0;z-index:1030}.btn-scroll-top>.btn-scroll-top-icon{font-size:var(--si-btn-scroll-top-icon-size);font-weight:700}.btn-scroll-top .btn-scroll-top-tooltip{position:absolute;top:50%;right:100%;transform:translateY(-50%);transition:opacity .25s ease-in-out,visibility .25s ease-in-out;visibility:hidden;opacity:0}.btn-scroll-top:hover{background-color:var(--si-btn-scroll-top-hover-bg);color:var(--si-btn-scroll-top-hover-color)}.btn-scroll-top:hover .btn-scroll-top-tooltip{visibility:visible;opacity:1}@media (max-width: 499.98px){.btn-scroll-top{width:calc(var(--si-btn-scroll-top-size)*.8);height:calc(var(--si-btn-scroll-top-size)*.8);right:1rem}}</style><link rel="stylesheet" href="styles.460ade45888e24fc.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.460ade45888e24fc.css"></noscript></head>
+
+<body class="has-topbar">
+
+  <main class="page-wrapper">
+    <app-root></app-root>
+  </main>
+
+  <script src="assets/js/cleave.min.js"></script>
+  <script src="assets/js/moment.min.js"></script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2959907227642466');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2959907227642466&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+  <!-- Back to top button -->
+  <a href="#top" class="btn-scroll-top" data-scroll="" style="    background: #4ad295 !important;">
+    <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Subir</span>
+    <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+  </a>
+  
+<script src="runtime.af4f26b8577060df.js" type="module"></script><script src="polyfills.91f7e1bd4daae84f.js" type="module"></script><script src="scripts.1d1103adbdffb20b.js" defer></script><script src="main.39ef9640a3ea6c0b.js" type="module"></script>
+
+</body></html>
